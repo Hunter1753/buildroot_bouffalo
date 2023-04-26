@@ -47,8 +47,8 @@ Download your prefered image above and extract the files.
 - Select the uart port and set baudrate with 2000000
     + UART TX is physical pin 1/GPIO 14.
     + UART RX is physical pin 2/GPIO 15.
-- M0 Group[Group0] Image Addr [0x58000000] [PATH to m0_low_load_bl808_m0.bin]
-- D0 Group[Group0] Image Addr [0x58100000] [PATH to d0_low_load_bl808_d0.bin]
+- M0 Group[Group0] Image Addr [0x58000000] [PATH to m0_lowload_bl808_m0.bin]
+- D0 Group[Group0] Image Addr [0x58100000] [PATH to d0_lowload_bl808_d0.bin]
 - Click 'Create & Download' and wait until it's done
 - Switch to [IOT] page
 - Enable 'Single Download', set Address with 0x800000, choose [bl808-firmware.bin]
@@ -62,7 +62,7 @@ Download your prefered image above and extract the files.
 
 ## Compiling Applications for BL808 based boards
 
-Buildroot provides a "SDK" for the baords. This is a tarball containing the cross compiler and sysroot for the target board. This can be used to compile applications for the board. Please refer to https://github.com/openbouffalo/buildroot_bouffalo/wiki/Building-Programs-outside-of-buildroot for basic instructions (or consult the [buildroot documentation](https://buildroot.org/downloads/manual/using-buildroot-toolchain.txt))
+Buildroot provides a "SDK" for the boards. This is a tarball containing the cross compiler and sysroot for the target board. This can be used to compile applications for the board. Please refer to https://github.com/openbouffalo/buildroot_bouffalo/wiki/Building-Programs-outside-of-buildroot for basic instructions (or consult the [buildroot documentation](https://buildroot.org/downloads/manual/using-buildroot-toolchain.txt))
 
 ## Current Status of Linux
 
